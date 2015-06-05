@@ -13,6 +13,10 @@
 		5E58A5F31B1414C20018784C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E58A5F21B1414C20018784C /* Images.xcassets */; };
 		5E58A5F61B1414C20018784C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E58A5F41B1414C20018784C /* LaunchScreen.xib */; };
 		5E58A6021B1414C20018784C /* MediaPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58A6011B1414C20018784C /* MediaPlayerTests.swift */; };
+		5E58A60C1B1419350018784C /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58A60B1B1419350018784C /* NavController.swift */; };
+		5E58A60E1B14195A0018784C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58A60D1B14195A0018784C /* InfoViewController.swift */; };
+		5E58A6101B1419680018784C /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58A60F1B1419680018784C /* MusicViewController.swift */; };
+		5E58A6121B14200D0018784C /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58A6111B14200D0018784C /* myTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		5E58A5FB1B1414C20018784C /* MediaPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E58A6001B1414C20018784C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E58A6011B1414C20018784C /* MediaPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerTests.swift; sourceTree = "<group>"; };
+		5E58A60B1B1419350018784C /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		5E58A60D1B14195A0018784C /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5E58A60F1B1419680018784C /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		5E58A6111B14200D0018784C /* myTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 			children = (
 				5E58A5EB1B1414C20018784C /* AppDelegate.swift */,
 				5E58A5ED1B1414C20018784C /* ViewController.swift */,
+				5E58A60B1B1419350018784C /* NavController.swift */,
+				5E58A60F1B1419680018784C /* MusicViewController.swift */,
+				5E58A6111B14200D0018784C /* myTableViewCell.swift */,
+				5E58A60D1B14195A0018784C /* InfoViewController.swift */,
 				5E58A5EF1B1414C20018784C /* Main.storyboard */,
 				5E58A5F21B1414C20018784C /* Images.xcassets */,
 				5E58A5F41B1414C20018784C /* LaunchScreen.xib */,
@@ -213,7 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E58A5EE1B1414C20018784C /* ViewController.swift in Sources */,
+				5E58A6101B1419680018784C /* MusicViewController.swift in Sources */,
 				5E58A5EC1B1414C20018784C /* AppDelegate.swift in Sources */,
+				5E58A60E1B14195A0018784C /* InfoViewController.swift in Sources */,
+				5E58A60C1B1419350018784C /* NavController.swift in Sources */,
+				5E58A6121B14200D0018784C /* myTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MediaPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MediaPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
